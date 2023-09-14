@@ -2,7 +2,8 @@ package com.string;
 
 import java.util.*;
 
-public class PrintDuplicatesCount {
+public class PrintDuplicatesCountByHashing {
+	//using SortedMap
 	public static void duplicateCount(String word) {
 		SortedMap<Character, Integer> chars = new TreeMap<>();
 		for (int i = 0; i < word.length(); i++) {
