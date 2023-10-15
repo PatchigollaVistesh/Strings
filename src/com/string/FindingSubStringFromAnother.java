@@ -2,10 +2,11 @@ package com.string;
 
 import java.util.Scanner;
 
+//  Test Cases :
 //  input: str1 : bombay , str2 : om* -> output : ombay
 //  input: str1 : calcutta , str2 : da* -> output : No Match Found
 
-public class anagramIdentification {
+public class FindingSubStringFromAnother {
 	
 	public static int stringAnagramCheck(String str1, String str2) {
 		
